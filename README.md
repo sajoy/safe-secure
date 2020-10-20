@@ -60,16 +60,16 @@ config as json
 
 - shapes
     - square
-    - rectangle
+    - rectangle 
     - triangle
     - circle
     - ellipse
-    - teardrop
-    - arch
-    - parallelogram
-    - blob
-    - squiggle
-    - letters in “safe”
+    - teardrop *
+    - arch * 
+    - parallelogram *
+    - blob *
+    - squiggle *
+    - letters in “safe” 
     - letters in “secure”
 
 - size
@@ -107,9 +107,18 @@ config as json
 
 ---
 
-## presentation
-
-- the code
-- the returned arrays
-- the computer’s interpretation
-- my interpretation
+## sitemap 
+```
+└── home
+    ├── browse (/showcase)
+    │   └── triptychs of code/my creation/program's creation, links to buy
+    ├── buy (/store)
+    │   ├── prints of program's creations
+    │   ├── prints of my creations
+    │   └── original collage
+    └── diy (/randomizer)
+        ├── the actual program
+        ├── textbox for JSON config
+        ├── a button to run the program
+        └── output space
+```
